@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.entradas {
+    display: flex;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 40px;
+    justify-content: space-around;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 155px;
+}
+
+tbody tr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+
+tbody tr td{
+    display: flex;
+    align-items: center;
+}
+
+.tabela-corpo td{
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+thead tr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+
+thead{
+    margin-bottom: 10px;
+}
